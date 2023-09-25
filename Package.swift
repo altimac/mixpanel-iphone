@@ -12,6 +12,7 @@ let package = Package(
     ],
     products: [
         .library(name: "Mixpanel", type: .static, targets: ["Mixpanel"]),
+        .library(name: "Mixpanel", type: .dynamic, targets: ["Mixpanel"]),
     ],
     targets: [
         .target(
