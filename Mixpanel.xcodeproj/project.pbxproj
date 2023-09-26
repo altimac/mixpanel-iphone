@@ -272,7 +272,7 @@
 		86EDD3312728BAE800BA05F9 /* MPJSONHander.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPJSONHander.h; sourceTree = "<group>"; };
 		86EDD334272A14F900BA05F9 /* MixpanelIdentity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixpanelIdentity.m; sourceTree = "<group>"; };
 		86EDD339272A150E00BA05F9 /* MixpanelIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixpanelIdentity.h; sourceTree = "<group>"; };
-		C47538B92AC2E47800C97EAE /* Mixpanel_no_appkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mixpanel_no_appkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47538B92AC2E47800C97EAE /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47538BB2AC2E49B00C97EAE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		E163D08D1EA69B4500DA4BF6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E1C2BDE11CFD5F9D0052172F /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = Library/Frameworks/TVServices.framework; sourceTree = DEVELOPER_DIR; };
@@ -375,7 +375,7 @@
 				8631AA1A2739ED8D0012D7AF /* HelloMixpanelWatch.app */,
 				8631AA1D2739ED8E0012D7AF /* HelloMixpanelWatch WatchKit App.app */,
 				8631AA2B2739ED910012D7AF /* HelloMixpanelWatch WatchKit Extension.appex */,
-				C47538B92AC2E47800C97EAE /* Mixpanel_no_appkit.framework */,
+				C47538B92AC2E47800C97EAE /* Mixpanel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -739,7 +739,7 @@
 			);
 			name = Mixpanel_macOS_no_appkit;
 			productName = Mixpanel_macOS;
-			productReference = C47538B92AC2E47800C97EAE /* Mixpanel_no_appkit.framework */;
+			productReference = C47538B92AC2E47800C97EAE /* Mixpanel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E1C2BE0A1CFD6A010052172F /* Mixpanel_tvOS */ = {
@@ -1527,7 +1527,7 @@
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mixpanel.Mixpanel;
-				PRODUCT_NAME = Mixpanel_no_appkit;
+				PRODUCT_NAME = Mixpanel;
 				SDKROOT = macosx;
 				STRINGS_FILE_OUTPUT_ENCODING = binary;
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
@@ -1579,7 +1579,7 @@
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mixpanel.Mixpanel;
-				PRODUCT_NAME = Mixpanel_no_appkit;
+				PRODUCT_NAME = Mixpanel;
 				SDKROOT = macosx;
 				STRINGS_FILE_OUTPUT_ENCODING = binary;
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
