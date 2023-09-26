@@ -17,7 +17,7 @@
 
 @end
 
-static inline os_log_t mixpanelLog() {
+static inline os_log_t mixpanelLog(void) {
     static os_log_t logger = nil;
     if (!logger) {
         logger = os_log_create("com.mixpanel.sdk.objc", "Mixpanel");
