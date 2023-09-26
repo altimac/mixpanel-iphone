@@ -5,14 +5,10 @@ import PackageDescription
 let package = Package(
     name: "Mixpanel",
     platforms: [
-      .iOS(.v9),
-      .tvOS(.v9),
-      .macOS(.v10_10),
-      .watchOS(.v3),
+      .macOS(.v10_12)
     ],
     products: [
-        .library(name: "Mixpanel", type: .static, targets: ["Mixpanel"]),
-        .library(name: "Mixpanel", type: .dynamic, targets: ["Mixpanel"]),
+        .library(name: "Mixpanel", targets: ["Mixpanel_macOS_no_appkit"])
     ],
     targets: [
         .target(
