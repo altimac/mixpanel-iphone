@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C402C7962AC3183800B938C3 /* MPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8631A96527399FD50012D7AF /* MPLogger.m */; };
+		C402C7972AC3183C00B938C3 /* MixpanelPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B0976F2707A66F00492E14 /* MixpanelPersistence.m */; };
+		C402C7982AC3184000B938C3 /* MixpanelExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F91260AB14E00C478DE /* MixpanelExceptionHandler.m */; };
+		C402C7992AC3184000B938C3 /* MixpanelIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDD334272A14F900BA05F9 /* MixpanelIdentity.m */; };
+		C402C79A2AC3184000B938C3 /* MPJSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDD32C2728BAD300BA05F9 /* MPJSONHandler.m */; };
+		C402C79B2AC3184000B938C3 /* SessionMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F8F260AB14E00C478DE /* SessionMetadata.m */; };
+		C402C79C2AC3184000B938C3 /* MPDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1727D17426F9090E006C74F3 /* MPDB.m */; };
+		C402C79D2AC3184300B938C3 /* MixpanelType.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F84260AB14D00C478DE /* MixpanelType.m */; };
+		C402C79F2AC3184300B938C3 /* MixpanelPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F87260AB14D00C478DE /* MixpanelPeople.m */; };
+		C402C7A02AC3184300B938C3 /* Mixpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F94260AB14E00C478DE /* Mixpanel.m */; };
+		C402C7A12AC3184300B938C3 /* MixpanelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F9C260AB14E00C478DE /* MixpanelGroup.m */; };
+		C402C7A32AC3184300B938C3 /* MPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F85260AB14D00C478DE /* MPNetwork.m */; };
+		C402C7A52AC3189900B938C3 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C402C7A42AC3189900B938C3 /* IOKit.framework */; };
+		C402C7A72AC318A100B938C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C402C7A62AC318A100B938C3 /* Foundation.framework */; };
+		C402C7A92AC318AA00B938C3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C402C7A82AC318AA00B938C3 /* libsqlite3.tbd */; };
 		C47538962AC2E47800C97EAE /* MPJSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDD32C2728BAD300BA05F9 /* MPJSONHandler.m */; };
 		C47538972AC2E47800C97EAE /* MixpanelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F9C260AB14E00C478DE /* MixpanelGroup.m */; };
 		C47538982AC2E47800C97EAE /* MixpanelExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 86542F91260AB14E00C478DE /* MixpanelExceptionHandler.m */; };
@@ -46,7 +61,6 @@
 		1727D18126F9094D006C74F3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.5.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		17B0976A2707A64B00492E14 /* MixpanelPersistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixpanelPersistence.h; sourceTree = "<group>"; };
 		17B0976F2707A66F00492E14 /* MixpanelPersistence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixpanelPersistence.m; sourceTree = "<group>"; };
-		511FC39F1C2B74DB00DC4796 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		513243431D1B473100CBA9AA /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
 		515B5A221CB6FF8600A34060 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		519AD7A31CB706A6005411A5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -97,6 +111,10 @@
 		86EDD3312728BAE800BA05F9 /* MPJSONHander.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPJSONHander.h; sourceTree = "<group>"; };
 		86EDD334272A14F900BA05F9 /* MixpanelIdentity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixpanelIdentity.m; sourceTree = "<group>"; };
 		86EDD339272A150E00BA05F9 /* MixpanelIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixpanelIdentity.h; sourceTree = "<group>"; };
+		C402C7922AC3173500B938C3 /* libMixpanel-static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMixpanel-static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C402C7A42AC3189900B938C3 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		C402C7A62AC318A100B938C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C402C7A82AC318AA00B938C3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		C47538B92AC2E47800C97EAE /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47538BB2AC2E49B00C97EAE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		E163D08D1EA69B4500DA4BF6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -110,6 +128,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C402C7902AC3173500B938C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C402C7A92AC318AA00B938C3 /* libsqlite3.tbd in Frameworks */,
+				C402C7A72AC318A100B938C3 /* Foundation.framework in Frameworks */,
+				C402C7A52AC3189900B938C3 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47538A22AC2E47800C97EAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				C47538B92AC2E47800C97EAE /* Mixpanel.framework */,
+				C402C7922AC3173500B938C3 /* libMixpanel-static.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +204,6 @@
 				519AD7A51CB706A9005411A5 /* CFNetwork.framework */,
 				519AD7A31CB706A6005411A5 /* Security.framework */,
 				515B5A221CB6FF8600A34060 /* libicucore.tbd */,
-				511FC39F1C2B74DB00DC4796 /* WatchConnectivity.framework */,
 				7C170D4D1A4A05BE00D9E0F2 /* QuartzCore.framework */,
 				7C170D4B1A4A05B400D9E0F2 /* CoreGraphics.framework */,
 				7C170D491A4A05AF00D9E0F2 /* CoreTelephony.framework */,
@@ -266,6 +294,9 @@
 		E1C2BDE01CFD5F9D0052172F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C402C7A82AC318AA00B938C3 /* libsqlite3.tbd */,
+				C402C7A62AC318A100B938C3 /* Foundation.framework */,
+				C402C7A42AC3189900B938C3 /* IOKit.framework */,
 				C47538BB2AC2E49B00C97EAE /* Cocoa.framework */,
 				1727D17D26F9092C006C74F3 /* libsqlite3.tbd */,
 				1727D17F26F9093F006C74F3 /* libsqlite3.tbd */,
@@ -290,6 +321,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		C402C78E2AC3173500B938C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47538A62AC2E47800C97EAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +352,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		C402C7912AC3173500B938C3 /* Mixpanel-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C402C7952AC3173600B938C3 /* Build configuration list for PBXNativeTarget "Mixpanel-static" */;
+			buildPhases = (
+				C402C78E2AC3173500B938C3 /* Headers */,
+				C402C78F2AC3173500B938C3 /* Sources */,
+				C402C7902AC3173500B938C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mixpanel-static";
+			productName = "Mixpanel-static";
+			productReference = C402C7922AC3173500B938C3 /* libMixpanel-static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		C47538942AC2E47800C97EAE /* Mixpanel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C47538B62AC2E47800C97EAE /* Build configuration list for PBXNativeTarget "Mixpanel" */;
@@ -340,6 +395,13 @@
 			attributes = {
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Mixpanel;
+				TargetAttributes = {
+					C402C7912AC3173500B938C3 = {
+						CreatedOnToolsVersion = 15.0;
+						DevelopmentTeam = TCG22P5KE4;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 7C170C241A4A02F500D9E0F2 /* Build configuration list for PBXProject "Mixpanel" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,6 +417,7 @@
 			projectRoot = "";
 			targets = (
 				C47538942AC2E47800C97EAE /* Mixpanel */,
+				C402C7912AC3173500B938C3 /* Mixpanel-static */,
 			);
 		};
 /* End PBXProject section */
@@ -370,6 +433,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C402C78F2AC3173500B938C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C402C79A2AC3184000B938C3 /* MPJSONHandler.m in Sources */,
+				C402C79D2AC3184300B938C3 /* MixpanelType.m in Sources */,
+				C402C7962AC3183800B938C3 /* MPLogger.m in Sources */,
+				C402C7A02AC3184300B938C3 /* Mixpanel.m in Sources */,
+				C402C7992AC3184000B938C3 /* MixpanelIdentity.m in Sources */,
+				C402C79F2AC3184300B938C3 /* MixpanelPeople.m in Sources */,
+				C402C7A32AC3184300B938C3 /* MPNetwork.m in Sources */,
+				C402C7982AC3184000B938C3 /* MixpanelExceptionHandler.m in Sources */,
+				C402C7972AC3183C00B938C3 /* MixpanelPersistence.m in Sources */,
+				C402C79B2AC3184000B938C3 /* SessionMetadata.m in Sources */,
+				C402C7A12AC3184300B938C3 /* MixpanelGroup.m in Sources */,
+				C402C79C2AC3184000B938C3 /* MPDB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47538952AC2E47800C97EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,10 +504,12 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = Mixpanel/Mixpanel.pch;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"MIXPANEL_MACOS=1",
+					"NO_APPKIT=1",
 				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -478,7 +562,11 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = Mixpanel/Mixpanel.pch;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MIXPANEL_MACOS=1",
+					"NO_APPKIT=1",
+				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -496,6 +584,73 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C402C7932AC3173600B938C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TCG22P5KE4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = Sources/macos.modulemap;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C402C7942AC3173600B938C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TCG22P5KE4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = Sources/macos.modulemap;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -537,7 +692,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Mixpanel",
+					"$(PROJECT_DIR)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MODULEMAP_FILE = Sources/macos.modulemap;
@@ -589,7 +744,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Mixpanel",
+					"$(PROJECT_DIR)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MODULEMAP_FILE = Sources/macos.modulemap;
@@ -613,6 +768,15 @@
 			buildConfigurations = (
 				7C170C3E1A4A02F500D9E0F2 /* Debug */,
 				7C170C3F1A4A02F500D9E0F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C402C7952AC3173600B938C3 /* Build configuration list for PBXNativeTarget "Mixpanel-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C402C7932AC3173600B938C3 /* Debug */,
+				C402C7942AC3173600B938C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
