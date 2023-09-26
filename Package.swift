@@ -12,7 +12,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Mixpanel",
+            name: "Mixpanel_macOS_no_appkit",
             path: "Sources",
             cSettings: [
                 .headerSearchPath("."),
