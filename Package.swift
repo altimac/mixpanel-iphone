@@ -8,11 +8,11 @@ let package = Package(
       .macOS(.v10_12)
     ],
     products: [
-        .library(name: "Mixpanel", targets: ["Mixpanel_macOS_no_appkit"])
+        .library(name: "Mixpanel", targets: ["Mixpanel"])
     ],
     targets: [
         .target(
-            name: "Mixpanel_macOS_no_appkit",
+            name: "Mixpanel",
             path: "Sources",
             cSettings: [
                 .headerSearchPath("."),
