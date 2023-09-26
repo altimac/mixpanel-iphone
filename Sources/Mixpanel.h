@@ -3,7 +3,9 @@
 #if !TARGET_OS_OSX
 #import <UIKit/UIKit.h>
 #else
-#import <Cocoa/Cocoa.h>
+  #ifndef NO_APPKIT
+    #import <Cocoa/Cocoa.h>
+#endif
 #endif
 #import "MixpanelPeople.h"
 #import "MixpanelType.h"

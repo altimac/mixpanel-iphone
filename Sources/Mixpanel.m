@@ -1142,7 +1142,10 @@ typedef NSDictionary*(^PropertyUpdate)(NSDictionary*);
 #if TARGET_OS_WATCH
     return [MixpanelWatchProperties collectDeviceProperties];
 #elif TARGET_OS_OSX
-    CGSize size = [NSScreen mainScreen].frame.size;
+	CGSize size = CGSizeMake(0, 0);
+#ifndef NO_APPKIT
+	size = [NSScreen mainScreen].frame.size;
+#endif
     return @{
              @"$os": @"macOS",
              @"$os_version": [NSProcessInfo processInfo].operatingSystemVersionString,
@@ -1260,8 +1263,9 @@ typedef NSDictionary*(^PropertyUpdate)(NSDictionary*);
 #else
 - (void)setUpListeners
 {
-    NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
-
+  #ifndef NO_APPKIT
+	NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+	
     // Application lifecycle events
     [notificationCenter addObserver:self
                            selector:@selector(applicationWillResignActive:)
@@ -1271,6 +1275,7 @@ typedef NSDictionary*(^PropertyUpdate)(NSDictionary*);
                            selector:@selector(applicationDidBecomeActive:)
                                name:NSApplicationDidBecomeActiveNotification
                              object:nil];
+  #endif
 }
 #endif
 
